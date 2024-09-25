@@ -1,0 +1,81 @@
+
+\documentclass[doctor,arialtitle]{thuthesis}
+
+\usepackage{thutils}
+\usepackage{indentfirst}  %% 节标题后第一行段缩进
+\usepackage{bm}    %%%%%  排印数学符号黑斜体时调用此宏包
+\usepackage{color}
+\usepackage{graphicx}  %%%% 文中插入 eps 图形时调用此宏包，插图方法 1
+%\usepackage{ccaption}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{threeparttable}
+%\usepackage{ccaption}
+
+\begin{document}
+
+% 定义所有的eps文件在 figures 子目录下
+\graphicspath{{figures/}}
+
+%
+%%% 封面部分
+\frontmatter
+\include{data/mcover}
+%\input{data/cover}
+%\makecover
+
+\input{data/mack}
+\input{data/abstract}
+\mmakeabstract
+% 目录
+\tableofcontents
+%\listoffigures
+% 符号对照表
+%\input{data/denotation}
+
+
+%%% 正文部分
+\mainmatter
+\include{data/chap01}
+%\include{data/chap02}
+\include{data/chap02}
+\include{data/chap03}
+\include{data/chap04}
+\include{data/chap05}
+%\include{data/chap07}
+%%% 其它部分
+\backmatter
+
+% 本科生要这几个索引，研究生不要。选择性留下。
+%\makeatletter
+%\ifthu@bachelor
+%  % 插图索引
+%\listoffigures
+%  % 表格索引
+%  \listoftables
+%  % 公式索引
+%c  \listofequations
+%\fi
+%\makeatother
+%
+%
+% 附录
+\begin{appendix}
+\input{data/appendix01}
+\end{appendix}
+%
+%% 参考文献
+\bibliographystyle{thubib}
+\bibliography{ref/refs}
+%作者简历
+\include{data/mresume}
+%论文列表
+\include{data/paperList}
+
+
+
+% 个人简历
+%\include{data/resume}
+
+
+\end{document}
