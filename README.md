@@ -1,0 +1,2 @@
+# BJTU_dissertation_latex_template_overleaf
+北京交通大学LaTex学位论文模板（兼容Overleaf）开发计划
