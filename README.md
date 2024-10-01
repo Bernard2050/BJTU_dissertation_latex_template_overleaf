@@ -1,6 +1,9 @@
 # BJTU_dissertation_latex_template_overleaf
 北京交通大学LaTex学位论文模板（兼容Overleaf）开发计划
 
+## pre-release
+> [北京交通大学LaTex学位论文模板兼容Overleaf.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
+
 ## 目标
 - 工作流: vscode + TeX Live (LaTex编译环境) + LaTex-Workshop (vscode插件) + Overleaf (在线环境) + github (仓库/项目版本管理) + zotero (文献管理)
 
