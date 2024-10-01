@@ -1,12 +1,14 @@
 # BJTU_dissertation_latex_template_overleaf
-北京交通大学LaTex学位论文模板（兼容Overleaf）开发计划
+北京交通大学LaTeX学位论文模板（兼容Overleaf）开发计划
 
 ## pre-release
-北京交通大学LaTex学位论文模板兼容Overleaf,打包下载：
-> [北京交通大学LaTex学位论文模板兼容Overleaf.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
+北京交通大学LaTeX学位论文模板兼容Overleaf\
+经测试可以在Overleaf、Win(TeX Live)、macOS(MacTeX)环境下编译
+打包下载：
+> [北京交通大学LaTeX学位论文模板兼容Overleaf.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
 
 ## 目标
-- 工作流: vscode + TeX Live (LaTex编译环境) + LaTex-Workshop (vscode插件) + Overleaf (在线环境) + github (仓库/项目版本管理) + zotero (文献管理)
+- 工作流: vscode + TeX Live (LaTeX编译环境) + LaTeX-Workshop (vscode插件) + Overleaf (在线环境) + github (仓库/项目版本管理) + zotero (文献管理)
 
 - 项目文档：sphinx项目文档、使用说明
 
