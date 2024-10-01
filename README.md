@@ -16,12 +16,12 @@
 
 - Win下TeX Live安装注意
 
-> TeX Live的Win Gui在线安装方式(install-tl-windows.exe)下载缓慢，建议直接下载完整的ISO：
-> [BJTU镜像](https://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive2024-20240312.iso)|[PKU镜像](https://mirrors.pku.edu.cn/ctan/systems/texlive/Images/texlive2024-20240312.iso)
-加载texliveyyyy-yyyymmdd.iso后运行install-tl-windows.bat进入Gui安装界面；
+> TeX Live的Win Gui在线安装方式(install-tl-windows.exe)下载缓慢，建议直接下载完整的ISO：\
+[BJTU镜像](https://mirror.bjtu.edu.cn/CTAN/systems/texlive/Images/texlive2024-20240312.iso)|[PKU镜像](https://mirrors.pku.edu.cn/ctan/systems/texlive/Images/texlive2024-20240312.iso)\
+加载texliveyyyy-yyyymmdd.iso后运行install-tl-windows.bat进入Gui安装界面；\
 选择安装目录避免中文，并且TEMP目录不能出现中文。
 
 - Overleaf下的使用
 
-· 进入project后打开左上角menu，compiler选择XeLaTex，main document选择demo.tex
+· 进入project后打开左上角menu，compiler选择XeLaTex，main document选择demo.tex\
 · 免费版编译速度可能过慢，并提示compile time out
