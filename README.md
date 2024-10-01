@@ -2,6 +2,7 @@
 北京交通大学LaTex学位论文模板（兼容Overleaf）开发计划
 
 ## pre-release
+北京交通大学LaTex学位论文模板兼容Overleaf,打包下载：
 > [北京交通大学LaTex学位论文模板兼容Overleaf.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
 
 ## 目标
