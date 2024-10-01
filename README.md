@@ -1,5 +1,5 @@
 # BJTU_dissertation_latex_template_overleaf
-- 北京交通大学LaTeX硕博学位论文模板（兼容Overleaf）开发计划
+- 北京交通大学LaTeX硕博学位论文（兼容Overleaf）工作流计划
 - 一个[最近更新的BJTU本科毕设LaTeX模板](https://github.com/GhostCai/bjtu-thesis-dlc)
 
 ## pre-release
