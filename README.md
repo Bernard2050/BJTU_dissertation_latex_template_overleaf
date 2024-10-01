@@ -3,7 +3,8 @@
 
 ## pre-release
 北京交通大学LaTeX学位论文模板兼容Overleaf\
-经测试可以在Overleaf、Win(TeX Live)、macOS(MacTeX)环境下编译
+> 在[https://github.com/yuweia/BJTU-thesis-templete](https://github.com/yuweia/BJTU-thesis-templete)的基础上修改\
+经测试可以在Overleaf、Win(TeX Live)、macOS(MacTeX)环境下编译\
 打包下载：
 > [北京交通大学LaTeX学位论文模板兼容Overleaf.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
 
