@@ -1,0 +1,26 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Dupont(1974)]{dupont1974bone}
+Dupont B.
+\newblock Bone marrow transplantation in severe combined immunodeficiency with an unrelated mlc compatible donor\allowbreak[C]//\allowbreak
+White H~J, Smith R.
+\newblock Proceedings of the third annual meeting of the International Society for Experimental Hematology.
+\newblock Houston: International Society for Experimental Hematology, 1974: 44-46.
+
+\bibitem[郑开青(1987)]{zhengkaiqing1987}
+郑开青.
+\newblock 通讯系统模拟及软件\allowbreak[D].
+\newblock 北京: 清华大学无线电系, 1987.
+
+\end{thebibliography}
