@@ -1,0 +1,115 @@
+\documentclass[AcMaster]{BJTU-thesis} %%学硕
+
+\usepackage[ruled,linesnumbered]{algorithm2e}
+\usepackage{bicaption}
+%\usepackage{emptypage}
+\usepackage{pdfpages}
+\usepackage{mathptmx}
+\usepackage{subfigure}
+\usepackage{graphicx} 
+\usepackage{pifont}
+\usepackage{setspace}
+\usepackage{array}%调节表格宽度	\begin{tabular}{m{4cm}<{\centering} m{2cm}<{\centering} m{5cm}<{\centering}  }
+\usepackage{booktabs}%有粗细的三线表
+
+%……BJTU-thesis.cls中已经使用了ctexbook，这里再导入ctex会警告:{Package `ctex' can not be loaded with `ctexbook'.}
+%\usepackage[UTF8]{ctex} % For Chinese typesetting and CJK font support
+%\usepackage[UTF8]{ctex} % For Chinese typesetting and CJK font support
+
+\usepackage{anyfontsize}%……解决Size substitutions with differences
+
+ \newfontfamily\myfont{times.ttf}
+ \setmainfont{Times New Roman}
+\usepackage{fancyhdr}
+
+%%%%%%%%%%%%%%%填写封面信息%%%%%%%%%%%%%%%%%%%%
+%\author{XXXX}
+%\studentNumber{XXXX}
+%\advisor{XXXX}
+%
+%\advisorTitle{XXXX}
+%
+%\degreeType{XXXX}
+%\major{XXXX}
+%\researchArea{XXXX}
+%\title{论文题目}
+%\englishtitle{论文英文题目}
+
+\begin{document}
+
+\pagenumbering{roman}	
+
+%\makecover
+%\makeAuthorization
+%\includepdf[page=-]{chapters/empty.pdf}
+%\makeInfo
+%\include{chapters/thanks}
+
+%%%%%%%%%%%%%%%插入封面及致谢页%%%%%%%%%%%%%%%%%%%%
+
+%% 本人比较强迫症，封面前几页的位置调不到完全一致，因此使用word转pdf插入的方式，其他页同理也可以这样操作
+% coverthanks.doc文件编辑生成pdf文件后插入此处
+\includepdf[pages=-]{chapters/coverthanks.pdf}
+\renewcommand\thepage{\zihao{-5} ~\roman{page}~}
+\setcounter{page}{5}
+
+
+\include{chapters/abstract}
+\include{chapters/englishabstract}
+
+
+
+
+% \include{chapters/preface} 
+\tableofcontents
+
+%\includepdf[page=-]{chapters/empty.pdf} %%%%%注意，这里是加一个空白页
+
+
+
+\newpage\pagenumbering{arabic}
+
+ %正文部分
+\include{chapters/chapter01} 								%引言
+\include{chapters/chapter02} 								%第二章
+\include{chapters/chapter03} 								%第三章
+\include{chapters/chapter04} 								%第四章
+\include{chapters/chapter05} 								%第五章
+
+
+\bibliography{reference/ref} 
+
+
+
+\backmatter
+%\appendix
+% \include{chapters/appendix}	
+%%% 索引
+%\chapter*{索引}
+%\pagestyle{fancy}
+%\addcontentsline{toc}{chapter}{索引}
+%678
+%\printindex[class]
+%\addcontentsline{toc}{section}{分类索引}
+%456
+%\printindex[author]
+%\addcontentsline{toc}{section}{著者索引}
+%345
+%\printindex[keyword]
+%\addcontentsline{toc}{section}{关键词索引}
+%123
+
+
+
+	\include{chapters/mresume}
+
+	\include{chapters/statement} 	
+
+	\include{chapters/dataset}	
+
+	%\includepdf[page=-]{chapters/empty.pdf}
+    %\includepdf[page=-]{chapters/dataset.pdf}
+
+%1232
+
+\end{document}
