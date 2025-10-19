@@ -2,7 +2,7 @@
 - 北京交通大学LaTeX硕博学位论文（兼容Overleaf）工作流计划
 - 一个[最近更新的BJTU本科毕设LaTeX模板](https://github.com/GhostCai/bjtu-thesis-dlc)
 
-## Release
+## Releases
 北京交通大学LaTeX硕博学位论文模板兼容Overleaf
 
 > 在[https://github.com/yuweia/BJTU-thesis-templete](https://github.com/yuweia/BJTU-thesis-templete)的基础上修改\
