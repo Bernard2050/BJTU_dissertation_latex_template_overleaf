@@ -8,7 +8,7 @@
 > 在[https://github.com/yuweia/BJTU-thesis-templete](https://github.com/yuweia/BJTU-thesis-templete)的基础上修改\
 经测试可以在Overleaf、Win(TeX Live)、macOS(MacTeX)环境下编译\
 
-- [v1.0_overleaf兼容_Xe2024_BJTU学位论文双页模板_硕士学术学位_博士学术学位.zip](https://raw.githubusercontent.com/Bernard2050/BJTU_dissertation_latex_template_overleaf/release_history/v1.0/v1.0_overleaf%E5%85%BC%E5%AE%B9_Xe2024_BJTU%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87%E5%8F%8C%E9%A1%B5%E6%A8%A1%E6%9D%BF_%E7%A1%95%E5%A3%AB%E5%AD%A6%E6%9C%AF%E5%AD%A6%E4%BD%8D_%E5%8D%9A%E5%A3%AB%E5%AD%A6%E6%9C%AF%E5%AD%A6%E4%BD%8D.zip)
+- [v1.0_overleaf兼容_Xe2024_BJTU学位论文双页模板_硕士学术学位_博士学术学位.zip](https://github.com/Bernard2050/BJTU_dissertation_latex_template_overleaf/releases/download/latest/overleaf_Xe2024_BJTU.zip)
     
     此版本中：
         · 修改了BJTU-thesis.cls和thesis.tex
