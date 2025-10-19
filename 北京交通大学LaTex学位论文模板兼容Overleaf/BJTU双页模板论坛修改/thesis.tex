@@ -1,4 +1,5 @@
 \documentclass[AcMaster]{BJTU-thesis} %%学硕
+% \documentclass[Doctor]{BJTU-thesis} %%博士
 
 \usepackage[ruled,linesnumbered]{algorithm2e}
 \usepackage{bicaption}
@@ -18,41 +19,69 @@
 
 \usepackage{anyfontsize}%……解决Size substitutions with differences
 
+\allowdisplaybreaks  % 允许公式环境自动分页
+
  \newfontfamily\myfont{times.ttf}
  \setmainfont{Times New Roman}
 \usepackage{fancyhdr}
 
 %%%%%%%%%%%%%%%填写封面信息%%%%%%%%%%%%%%%%%%%%
-%\author{XXXX}
-%\studentNumber{XXXX}
-%\advisor{XXXX}
-%
-%\advisorTitle{XXXX}
-%
-%\degreeType{XXXX}
-%\major{XXXX}
-%\researchArea{XXXX}
-%\title{论文题目}
-%\englishtitle{论文英文题目}
+\author{XXXX}
+\studentNumber{XXXX}
+%导师
+\advisor{XXXX}
+%导师职称
+\advisorTitle{XXXX}
+
+\degreeType{XXXX}
+\major{XXXX}
+\researchArea{XXXX}
+\title{论文题目}
+\englishtitle{论文英文题目}
+
+\yearMonth{20XX年XX月}
 
 \begin{document}
 
 \pagenumbering{roman}	
 
-%\makecover
-%\makeAuthorization
-%\includepdf[page=-]{chapters/empty.pdf}
-%\makeInfo
-%\include{chapters/thanks}
-
 %%%%%%%%%%%%%%%插入封面及致谢页%%%%%%%%%%%%%%%%%%%%
 
-%% 本人比较强迫症，封面前几页的位置调不到完全一致，因此使用word转pdf插入的方式，其他页同理也可以这样操作
-% coverthanks.doc文件编辑生成pdf文件后插入此处
-\includepdf[pages=-]{chapters/coverthanks.pdf}
-\renewcommand\thepage{\zihao{-5} ~\roman{page}~}
-\setcounter{page}{5}
+% 制作封面
+\makecover
 
+% 插入空白页，取消页眉页脚
+\clearpage
+\thispagestyle{empty}
+\mbox{}   % 插入一个空白内容
+\clearpage
+
+% 制作学位论文版权使用授权书
+\makeAuthorization
+
+% 插入空白页，取消页眉页脚
+\clearpage
+\thispagestyle{empty}
+\mbox{}   % 插入一个空白内容
+\clearpage
+
+% 从 Info 开始，页码 roman
+\pagenumbering{roman}	
+\makeInfo
+
+% 插入空白页，取消页眉页脚
+\clearpage
+\thispagestyle{empty}
+\mbox{}   % 插入一个空白内容
+\clearpage
+
+\include{chapters/thanks}
+
+% 插入空白页，取消页眉页脚
+\clearpage
+\thispagestyle{empty}
+\mbox{}   % 插入一个空白内容
+\clearpage
 
 \include{chapters/abstract}
 \include{chapters/englishabstract}
@@ -82,8 +111,8 @@
 
 
 \backmatter
-%\appendix
-% \include{chapters/appendix}	
+\appendix
+\include{chapters/appendix}	
 %%% 索引
 %\chapter*{索引}
 %\pagestyle{fancy}

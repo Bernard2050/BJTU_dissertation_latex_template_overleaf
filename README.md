@@ -2,20 +2,35 @@
 - 北京交通大学LaTeX硕博学位论文（兼容Overleaf）工作流计划
 - 一个[最近更新的BJTU本科毕设LaTeX模板](https://github.com/GhostCai/bjtu-thesis-dlc)
 
-## pre-release
+## Release
 北京交通大学LaTeX硕博学位论文模板兼容Overleaf
 
 > 在[https://github.com/yuweia/BJTU-thesis-templete](https://github.com/yuweia/BJTU-thesis-templete)的基础上修改\
 经测试可以在Overleaf、Win(TeX Live)、macOS(MacTeX)环境下编译\
-打包下载：
-> [北京交通大学LaTeX硕博学位论文模板兼容Overleaf.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
+
+- [v1.0_overleaf兼容_Xe2024_BJTU学位论文双页模板_硕士学术学位_博士学术学位.zip](https://github.com/user-attachments/files/17201796/LaTex.Overleaf.zip)
+    
+    此版本中：
+        · 修改了BJTU-thesis.cls和thesis.tex
+        · 修复了封面到英文摘要的直接生成
+        · 解决了多行公式（subequations）在前一页具有充足空间时可能会过早换页的问题
+
+- v0.9 
+
+    此版本中增加了对overleaf的兼容性(XeLaTex, Tex Live 2024)
 
 ## 目标
 - 工作流: vscode + TeX Live (LaTeX编译环境) + LaTeX-Workshop (vscode插件) + Overleaf (在线环境) + github (仓库/项目版本管理) + zotero (文献管理)
 
 - 项目文档：sphinx项目文档、使用说明
 
-## 安装使用
+## Overleaf下的使用
+
+· 进入project后打开左上角menu，compiler选择XeLaTex, Tex Live 2024，
+· main document选择demo.tex\
+· 注意overleaf官方部署免费版编译速度可能过慢，并提示compile time out
+
+## 本地编译器安装使用
 
 - 下载链接
 
@@ -30,7 +45,4 @@
 加载texliveyyyy-yyyymmdd.iso后运行install-tl-windows.bat进入Gui安装界面；\
 选择安装目录避免中文，并且TEMP目录不能出现中文。
 
-- Overleaf下的使用
 
-· 进入project后打开左上角menu，compiler选择XeLaTex，main document选择demo.tex\
-· 免费版编译速度可能过慢，并提示compile time out

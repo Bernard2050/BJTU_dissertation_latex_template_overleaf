@@ -68,7 +68,7 @@
 \def\BJTU@value@researchArea{XXXX}
 \def\BJTU@value@title{中文题目}
 \def\BJTU@value@englishtitle{英文题目}
-
+\def\BJTU@value@yearMonth{XXXX年XX月}
 
 
 
@@ -85,7 +85,7 @@
 \newcommand\researchArea[1]{\def\BJTU@value@researchArea{#1}}
 \newcommand\englishtitle[1]{\def\BJTU@value@englishtitle{#1}}
 \renewcommand\title[1]{\def\BJTU@value@title{#1}}
-
+\newcommand\yearMonth[1]{\def\BJTU@value@yearMonth{#1}}
 
 %%empty page
 
@@ -179,7 +179,7 @@
 
 	\vfill
 	\begin{center}
-		{\songti\zihao{4}北京交通大学\\ \vspace{10pt}\songti2022年6月}
+		{\songti\zihao{4}北京交通大学\\ \vspace{10pt}\songti\BJTU@value@yearMonth}
 	\end{center}
 }
 
@@ -416,7 +416,7 @@ twoside
 		\end{tabular}
 		\\
 		\vspace{120pt}
-		{\songti\zihao{4}北京交通大学\\\vspace{14pt}2022年6月}
+		{\songti\zihao{4}北京交通大学\\\vspace{14pt}\BJTU@value@yearMonth}
 	\end{center}
 }
 
