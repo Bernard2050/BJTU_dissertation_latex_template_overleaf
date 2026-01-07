@@ -529,7 +529,7 @@ twoside
 % \setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
 
 %_  参考文献风格 added by wei.jianwen@gmail.com
-\bibliographystyle{GBT7714-2005NLang}
+\bibliographystyle{gbt7714-2015-numerical}
 
 %_ 参考文献环境
 \renewenvironment{thebibliography}[1]
