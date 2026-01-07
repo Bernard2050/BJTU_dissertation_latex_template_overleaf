@@ -8,7 +8,8 @@
 > 在[https://github.com/yuweia/BJTU-thesis-templete](https://github.com/yuweia/BJTU-thesis-templete)的基础上修改\
 经测试可以在Overleaf、Win(TeX Live)、macOS(MacTeX)环境下编译\
 
-- [v1.0.1](https://github.com/Bernard2050/BJTU_dissertation_latex_template_overleaf/releases/download/latest/v1.0.1.zip)
+- [v1.0.1](https://github.com/Bernard2050/BJTU_dissertation_latex_template_overleaf/releases/download/latest/v1.0.1.zip)(2026.1.7)
+  Made GB/T 7714-2015 numerical default
 
 - [v1.0_overleaf兼容_Xe2024_BJTU学位论文双页模板_硕士学术学位_博士学术学位.zip](https://github.com/Bernard2050/BJTU_dissertation_latex_template_overleaf/releases/download/latest/overleaf_Xe2024_BJTU.zip)(2025.10.20)
     
